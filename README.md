@@ -30,6 +30,8 @@ Add the plugin directly to your CSS file using the `@plugin` directive:
 - **`offset-anchor`**: `center`, `top`, `left`, `right`, or arbitrary `[20px_40px]`
 - **`offset-position`**: `auto`, `center`, or arbitrary `[10px_20px]`
 
+> **⚠️ Note:** Currently, `offset-position` and CSS animations (like `animate-motion`) do not work together. Using both on the same element may result in unexpected behavior or the `offset-position` being ignored.
+
 ### Animation Helpers
 
 Users who don't want to write custom keyframes can use our pre-built animation classes. These will smoothly animate the `offset-distance` from `0%` to `100%`:
