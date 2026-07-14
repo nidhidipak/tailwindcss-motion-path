@@ -17,8 +17,16 @@
     "offset-path",
     "motion-path"
   ],
-  "author": "",
+  "author": "nidhidipak",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nidhidipak/tailwindcss-motion-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nidhidipak/tailwindcss-motion-path/issues"
+  },
+  "homepage": "https://github.com/nidhidipak/tailwindcss-motion-path#readme",
   "peerDependencies": {
     "tailwindcss": "^3.0.0 || ^4.0.0"
   },
