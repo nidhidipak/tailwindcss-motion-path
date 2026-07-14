@@ -56,4 +56,4 @@ Want fine-grained control? We provide custom utilities so you don't have to writ
 
 ## 🎨 Demo
 
-[Check out the live demo here!](#)
+[Check out the live demo here!](https://tailwindcss-motion-path-ashy.vercel.app/)
