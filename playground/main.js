@@ -105,7 +105,6 @@
              customPanel.classList.add('hidden');
              editCustomBtn.classList.add('hidden');
              
-             // Wrap in generic container
              const htmlCode = 
 `<div class="bg-slate-800 p-6 rounded-2xl shadow-xl border border-slate-700/50 flex flex-col items-center">
   <h2 class="text-lg font-bold mb-6 text-slate-200">${demo.name}</h2>
@@ -114,9 +113,15 @@
     ${demo.element}
   </div>
 </div>`;
+
+             const outputCode = 
+`<div class="relative w-[200px] h-[200px] flex items-center justify-center">
+    ${demo.svg}
+    ${demo.element}
+</div>`;
              
              previewEl.innerHTML = htmlCode;
-             codeOutput.textContent = htmlCode;
+             codeOutput.textContent = outputCode;
          }
          
          // Reset to preview view on changing demo
@@ -230,11 +235,8 @@
 </div>`;
 
           const outputHtml = 
-`<div class="bg-slate-800 p-6 rounded-2xl shadow-xl border border-slate-700/50 flex flex-col items-center">
-  <h2 class="text-lg font-bold mb-6 text-slate-200">Custom Shape ✨</h2>
-  <div class="relative w-[200px] h-[200px] flex items-center justify-center">
-    ${svgCode}${outputElementCode}
-  </div>
+`<div class="relative w-[200px] h-[200px] flex items-center justify-center">
+  ${svgCode}${outputElementCode}
 </div>`;
           
           previewEl.innerHTML = previewHtml;
