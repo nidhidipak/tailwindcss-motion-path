@@ -1,5 +1,7 @@
 # Tailwind CSS Motion Path Plugin
 
+[![NPM Version](https://img.shields.io/npm/v/tailwindcss-motion-path?style=flat-square&logo=npm)](https://www.npmjs.com/package/tailwindcss-motion-path) [![NPM Downloads](https://img.shields.io/npm/dt/tailwindcss-motion-path?style=flat-square&logo=npm)](https://www.npmjs.com/package/tailwindcss-motion-path) [![License](https://img.shields.io/npm/l/tailwindcss-motion-path?style=flat-square)](LICENSE) [![Tailwind CSS](https://img.shields.io/badge/Tailwind-v3%20%26%20v4-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+
 A powerful, lightweight Tailwind CSS v4 plugin that brings full support for the CSS Motion Path module (`offset-path`) along with built-in animation utilities.
 
 ## 🚀 Installation & Setup
